@@ -4,6 +4,19 @@
 #include <string>
 using namespace std;
 
-/* Type your code here */
+class ItemToPurchase{
+  private:
+    string itemName;
+    int itemPrice;
+    int itemQuantity;
+  public:
+  //TODO: add constructor
+    void SetName();
+    string GetName();
+    void SetPrice();
+    int GetPrice();
+    void SetQuantity();
+    int GetQuantity();
+};
 
 #endif
