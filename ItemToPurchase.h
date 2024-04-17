@@ -4,6 +4,18 @@
 #include <string>
 using namespace std;
 
-/* Type your code here */
+class ItemToPurchase{
+  private:
+  string itemName;
+  int itemPrice;
+  int itemQuantity;
+  
+  public:
+  SetName(){};
+  GetName(){};
+  SetPrice(){};
+  GetPrice(){};
+
+  }
 
 #endif
