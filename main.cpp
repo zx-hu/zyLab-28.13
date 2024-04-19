@@ -11,7 +11,7 @@ int main(){
   //item 1
   cout << "Item 1" << endl;
   cout << "Enter the item name:" << endl;
-  cin >> name1;
+  getline(cin,name1);
   cout << "Enter the item price:" << endl;
   cin >> price1;
   cout << "Enter the item quantity:" << endl;
@@ -22,11 +22,12 @@ int main(){
   //item 2
   cout << endl << "Item 2" << endl;
   cout << "Enter the item name:" << endl;
-  cin >> name2;
+  getline(cin,name2);
   cout << "Enter the item price:" << endl;
   cin >> price2;
   cout << "Enter the item quantity:" << endl;
   cin >> quant2;
+  cout << endl;
 
   //create the items
   ItemToPurchase item1 = ItemToPurchase(name1, price1, quant1);
