@@ -14,33 +14,33 @@ ItemToPurchase::ItemToPurchase(){
 ItemToPurchase::ItemToPurchase(string name, int price, int quantity){
   itemName = name;
   itemPrice = price;
-  itemQuantity = quantiy;
+  itemQuantity = quantity;
 }
 
 //Set name
 void ItemToPurchase::SetName(string n){
-  name = n;
+  itemName = n;
 }
 
 //Get name
 string ItemToPurchase::GetName(){
-  return name;
+  return itemName;
 }
 
 //Set price
-void ItemToPurchase::SetPrice(int p)
-  price = p;
+void ItemToPurchase::SetPrice(int p){
+  itemPrice = p;
 }
 
 //Get price
 int ItemToPurchase::GetPrice(){
-  return price;
+  return itemPrice;
 }
 
 void ItemToPurchase::SetQuantity(int q){
-  quantity = q;
+  itemQuantity = q;
 }
 
 int ItemToPurchase::GetQuantity(){
-  return quantity;
+  return itemQuantity;
 }
