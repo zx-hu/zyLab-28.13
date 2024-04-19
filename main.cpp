@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-//update from user-1
-//update from user-2
+#include "ItemToPurchase.h"
+
 
 int main(){
   //get params for the two items
@@ -16,7 +16,7 @@ int main(){
   cin >> price1;
   cout << "Enter the item quantity:" << endl;
   cin >> quant1;
-
+  
   cin.ignore();
   
   //item 2
@@ -29,8 +29,8 @@ int main(){
   cin >> quant2;
 
   //create the items
-  item1 = ItemToPurchase(name1, price1, quant1);
-  item2 = ItemToPurchase(name2, price2, quant2);
+  ItemToPurchase item1 = ItemToPurchase(name1, price1, quant1);
+  ItemToPurchase item2 = ItemToPurchase(name2, price2, quant2);
   
   //output
   int total1, total2;
