@@ -3,8 +3,18 @@ using namespace std;
 
 #include "ItemToPurchase.h"
 
-//TODO: Constructor
+//TODO: Default Constructor
 ItemToPurchase::ItemToPurchase(){
+  string itemName = "none";
+  int itemPrice = 0;
+  int itemQuantity = 0;
+}
+
+// Constructor
+ItemToPurchase::ItemToPurchase(){
+  string itemName = name;
+  int itemPrice = price;
+  int itemQuantity = quantiy;
 }
 
 //Set name
