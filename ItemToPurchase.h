@@ -11,11 +11,12 @@ class ItemToPurchase{
     int itemQuantity;
   public:
   //TODO: add constructor
-    void SetName();
+    ItemToPurchase();
+    void SetName(string name);
     string GetName();
-    void SetPrice();
+    void SetPrice(int price);
     int GetPrice();
-    void SetQuantity();
+    void SetQuantity(int quantity);
     int GetQuantity();
 };
 
