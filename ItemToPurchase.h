@@ -12,6 +12,7 @@ class ItemToPurchase{
   public:
   //TODO: add constructor
     ItemToPurchase();
+    ItemToPurchase(string name, int price, int quantity);
     void SetName(string name);
     string GetName();
     void SetPrice(int price);
