@@ -16,6 +16,8 @@ int main(){
   cin >> price1;
   cout << "Enter the item quantity:" << endl;
   cin >> quant1;
+
+  cin.ignore();
   
   //item 2
   cout << endl << "Item 2" << endl;
