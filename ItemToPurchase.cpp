@@ -5,16 +5,16 @@ using namespace std;
 
 //TODO: Default Constructor
 ItemToPurchase::ItemToPurchase(){
-  string itemName = "none";
-  int itemPrice = 0;
-  int itemQuantity = 0;
+  itemName = "none";
+  itemPrice = 0;
+  itemQuantity = 0;
 }
 
 // Constructor
-ItemToPurchase::ItemToPurchase(){
-  string itemName = name;
-  int itemPrice = price;
-  int itemQuantity = quantiy;
+ItemToPurchase::ItemToPurchase(string name, int price, int quantity){
+  itemName = name;
+  itemPrice = price;
+  itemQuantity = quantiy;
 }
 
 //Set name
